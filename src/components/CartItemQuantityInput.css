@@ -1,0 +1,23 @@
+.cart-item-input {
+  position: absolute;
+  top: 14px;
+  right: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-quantity-input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: 500;
+}
+
+.cart-item-quantity-input__btn {
+  position: absolute;
+  bottom: -20px;
+  left: -50%;
+}

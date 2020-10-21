@@ -1,0 +1,32 @@
+.navigation {
+  height: 80px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.home-link {
+  margin-right: 16px;
+  color: white;
+  background-color: #777;
+  height: 50px;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  text-shadow: 0 3px 2px #333;
+  filter: drop-shadow(0 3px 2px #111);
+}
+
+.product__desc {
+  font-weight: 200;
+}

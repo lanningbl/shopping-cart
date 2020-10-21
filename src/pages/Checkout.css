@@ -1,0 +1,128 @@
+.top {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.checkout-item {
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 10px;
+  min-height: 60px;
+  border-bottom: 1px solid #aaa;
+}
+.checkout-item:last-child {
+  border-bottom-color: red;
+}
+
+.checkout-item__img-container {
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  filter: drop-shadow(0 6px 3px #aaa);
+  box-shadow: inset 0 6px 3px #999;
+  margin-right: 10px;
+}
+
+.checkout-item__img {
+  padding: 8px;
+  filter: drop-shadow(0 3px 2px #aaa);
+}
+
+.checkout-item__title {
+  font-weight: 900;
+}
+
+.checkout-item__product {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  top: 22px;
+  left: 110px;
+}
+
+.checkout-item__price {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  top: 22px;
+  right: 230px;
+  text-align: center;
+}
+
+.checkout-item__quantity {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  top: 22px;
+  right: 120px;
+}
+
+.checkout-item__total {
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  top: 22px;
+  right: 40px;
+}
+
+#trash {
+  height: 16px;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  color: #ccc;
+  cursor: pointer;
+}
+#trash:hover {
+  color: #bbb;
+}
+
+.checkout-action-btns {
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.cart__continue-shopping-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 2px solid teal;
+  font-weight: 700;
+}
+.cart__continue-shopping-btn:hover {
+  background-color: teal;
+  color: #fff;
+}
+
+.cart__checkout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: teal;
+  border: 2px solid teal;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 10px;
+}
+.cart__checkout-btn:hover {
+  background-color: #fff;
+  border-color: teal;
+  color: #000;
+}

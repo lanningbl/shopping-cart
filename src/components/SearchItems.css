@@ -1,0 +1,22 @@
+.search-items {
+  float: left;
+  width: 200px;
+  background-color: #eee;
+}
+
+.search__storage {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-control {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.status {
+  color: orange;
+  font-weight: 700;
+  font-size: 22px;
+}
